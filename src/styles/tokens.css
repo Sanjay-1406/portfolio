@@ -1,0 +1,18 @@
+:root {
+  --void: #08090A;
+  --graphite: #131517;
+  --gunmetal: #1E2125;
+  --steel: #7C848C;
+  --bone: #ECE6D9;
+
+  --healthy: #4FD1C5;   
+  --pressure: #FFA31A;  
+  --critical: #F2452D;  
+
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-body: "Inter Tight", system-ui, -apple-system, sans-serif;
+  --max-width: 1120px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --radius: 6px;
+}
