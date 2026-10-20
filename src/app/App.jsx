@@ -6,6 +6,7 @@ import { ProjectsSection } from "../sections/Projects/ProjectsSection.jsx";
 import { AboutSection } from "../sections/About/AboutSection.jsx";
 import { ResumeSection } from "../sections/Resume/ResumeSection.jsx";
 import { ContactSection } from "../sections/Contact/ContactSection.jsx";
+import { DebugSim2D } from "../sections/Backpressure/DebugSim2D.jsx";
 
 export default function App() {
   return (
@@ -13,6 +14,11 @@ export default function App() {
       <Nav />
       <main>
         <Hero />
+        <section className="section" id="backpressure-debug">
+          <p className="mono">DEBUG — THROWAWAY</p>
+          <h2>Simulation</h2>
+          <DebugSim2D />
+        </section>
         <ProjectsSection />
         <AboutSection />
         <ResumeSection />

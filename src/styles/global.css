@@ -149,3 +149,49 @@ button {
   gap: 20px;
   margin-top: 32px;
 }
+
+.sim2d {
+  border: 1px solid var(--gunmetal);
+  background: var(--graphite);
+  padding: 20px;
+  border-radius: var(--radius);
+  margin-top: 24px;
+}
+.sim2d__bar {
+  height: 200px;
+  background: var(--void);
+  border: 1px solid var(--gunmetal);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  margin: 16px 0;
+}
+.sim2d__fill {
+  width: 100%;
+  background: var(--pressure);
+  transition: height 0.2s linear;
+}
+.sim2d__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 16px 0;
+}
+.sim2d__metrics div { padding: 8px; background: var(--void); border-radius: var(--radius); }
+.sim2d__metrics dt {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--steel);
+  text-transform: uppercase;
+}
+.sim2d__metrics dd { font-family: var(--font-mono); color: var(--bone); margin: 4px 0 0; }
+.sim2d label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--steel);
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+.sim2d input[type='range'] { width: 100%; margin-top: 6px; }
